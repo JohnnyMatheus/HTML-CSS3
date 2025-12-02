@@ -7,3 +7,8 @@ img{
 .foto{
     width: 150px;
 }
+
+
+body{
+    writing-mode: vertical-rl;
+}
