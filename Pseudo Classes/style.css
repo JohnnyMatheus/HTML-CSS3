@@ -1,0 +1,35 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background: #caf;
+  color: #217;
+  transition: .3s;
+}
+a:hover{
+    
+    background: #adf;
+    color: #147;
+}
+
+a:focus{
+    background: #cfa;
+    color: #371;
+    border: 2px solid red;
+    outline: none;
+    
+}
+
+a:active{
+    background: #ffa;
+    color: #761;
+}
+
+a:visited{
+    
+    color: pink;
+}
+
+
