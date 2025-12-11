@@ -1,0 +1,33 @@
+a {
+  display: inline-block;
+  background: #caf;
+  padding: 1rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.lista-1 li {
+  background: #ffa;
+}
+.lista-1 li:first-child {
+  background: #caf;
+}
+
+.lista-1 li:last-child {
+  background: #cfa;
+}
+
+/* .lista-2 li:nth-child(odd) {
+  background: #cfa;
+} */
+.lista-2 li:nth-child(3n) {
+  background: #cfa;
+}
+
+.lista-3 li:not(:first-child, :last-child) {
+  background: #cfa;
+}
+
+.lista-4 li:nth-child(even){
+    background: red;
+}
