@@ -1,0 +1,24 @@
+/* CSS */
+.titulo{
+    font-size: 40px;
+    line-height: 50px;
+    color: #a8f;
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.subtitulo{
+
+}
+
+
+/* CSS Utilitário */
+.texto-grande{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.cor-primaria{
+    color: #a8f;
+}
